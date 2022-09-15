@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.studentInput {
+  margin-top: 50px;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.studentInput .row1 {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.studentInput .row1 #nameHeader {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row1 #firstName {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row1 #firstName::placeholder {
+  padding-left: 10px;
+}
+.studentInput .row1 #lastName {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row1 #lastName::placeholder {
+  padding-left: 10px;
+}
+.studentInput .row2 {
+  margin-top: 25px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.studentInput .row2 #infoHeader {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row2 #studentEmail {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row2 #studentEmail::placeholder {
+  padding-left: 10px;
+}
+.studentInput .row2 #studentPhone {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row2 #studentPhone::placeholder {
+  padding-left: 10px;
+}
+.studentInput .row2 #studentAge {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .row2 #studentAge::placeholder {
+  padding-left: 10px;
+}
+.studentInput .classes {
+  height: 150px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.studentInput .classes #classHeader {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .classes #studentClass1 {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .classes #studentClass1::placeholder {
+  padding-left: 10px;
+}
+.studentInput .classes #studentClass2 {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .classes #studentClass2::placeholder {
+  padding-left: 10px;
+}
+.studentInput .classes #studentClass3 {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid slateblue;
+  border-radius: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .classes #studentClass3::placeholder {
+  padding-left: 10px;
+}
+.studentInput .buttonsContainer {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  flex-direction: column;
+}
+.studentInput .buttonsContainer #submit {
+  border: 1.5px solid slateblue;
+  background-color: white;
+  padding: 10px;
+  border-radius: 35px;
+  width: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.studentInput .buttonsContainer #getInfo {
+  border: 1.5px solid slateblue;
+  background-color: white;
+  padding: 10px;
+  border-radius: 35px;
+  width: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#app .data-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 700px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

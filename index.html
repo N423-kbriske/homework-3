@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="studentInput">
+      <div class="row1">
+        <label id="nameHeader" type="text" for="classes">Name</label>
+        <input type="text" id="firstName" placeholder="First Name *" />
+        <input type="text" id="lastName" placeholder="Last Name * " />
+      </div>
+
+      <div class="row2">
+        <label id="infoHeader" type="text" for="classes"
+          >Contact/Demographic</label
+        >
+        <input type="text" id="studentEmail" placeholder="Email *" />
+        <input type="text" id="studentPhone" maxlength="12" placeholder="Phone *" />
+        <input type="text" id="studentAge" placeholder="Age *" />
+      </div>
+
+      <div class="classes">
+        <label id="classHeader" type="text" for="classes">Classes</label>
+        <input type="text" id="studentClass1" placeholder="Class 1 *" />
+        <input type="text" id="studentClass2" placeholder="Class 2" />
+        <input type="text" id="studentClass3" placeholder="Class 3" />
+      </div>
+
+      <!-- <input type="submit" id="classSubmit" value="Enter Classes By Comma" />
+      <input type="submit" id="classSubmit2" value="Enter Classes As List" /> -->
+      <div class="buttonsContainer">
+        <input type="submit" id="submit" value="Submit" />
+        <input type="submit" id="getInfo" value="Show Information" />
+      </div>
+    </div>
+    <div id="app">
+      <div class="dataContainer"></div>
+    </div>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

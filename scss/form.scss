@@ -1,0 +1,179 @@
+.studentInput {
+  margin-top: 50px;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  // border: 2px solid red;
+
+  .row1 {
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    // border: 2px solid black;
+
+    #nameHeader {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    #firstName {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+
+    #lastName {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .row2 {
+    margin-top: 25px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    // border: 2px solid black;
+
+    #infoHeader {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    #studentEmail {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+
+    #studentPhone {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+
+    #studentAge {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .classes {
+    height: 150px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    #classHeader {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    // margin-top: 20px;
+    #studentClass1 {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+
+    #studentClass2 {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+
+    #studentClass3 {
+      width: 300px;
+      height: 40px;
+      border: 1.5px solid slateblue;
+      border-radius: 7px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .buttonsContainer {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    flex-direction: column;
+    // border: 2px solid black;
+
+    #submit {
+      border: 1.5px solid slateblue;
+      background-color: white;
+      padding: 10px;
+      border-radius: 35px;
+      width: 300px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    #getInfo {
+      border: 1.5px solid slateblue;
+      background-color: white;
+      padding: 10px;
+      border-radius: 35px;
+      width: 300px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+}
