@@ -1,7 +1,7 @@
 # Homework 3
 
 Web4 Link:
-https://in-info-web4.informatics.iupui.edu/~kbriske/N315-homework-two
+https://in-info-web4.informatics.iupui.edu/~kbriske/N423-homework-three
 
 ## Purpose
 - This assignment will help you understand retrieving data and displaying data from local storage. You can use local storage or IndexedDB
